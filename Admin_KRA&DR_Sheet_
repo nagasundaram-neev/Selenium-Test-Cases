@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:3000/" />
+<title>Admin_KRA&DR_Sheet_</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">Admin_KRA&DR_Sheet_</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=KRA Sheets</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#kr-sheets-collapse &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//table[@id='myTable']/tbody/tr[2]/td[4]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=kra_sheet_appraiser_id</td>
+	<td>label=naga@neevtech.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=commit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=DR Sheets</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#dr-sheets-collapse &gt; li &gt; a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//table[@id='myTable']/tbody/tr[2]/td[4]/a</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=dr_sheet_appraiser_id</td>
+	<td>label=naga@neevtech.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=commit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=dr_sheet_appraiser_id</td>
+	<td>label=naga@neevtech.com</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>name=commit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=#dr-sheets-collapse &gt; li &gt; a</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
