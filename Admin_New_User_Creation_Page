@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://localhost:3000/" />
-<title>Admin_CRUD_KRA_Attr</title>
+<title>Admin_New_User_Creation_Page</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Admin_CRUD_KRA_Attr</td></tr>
+<tr><td rowspan="1" colspan="3">Admin_New_User_Creation_Page</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -18,64 +18,70 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//ul[@id='side-nav']/li[6]/a/span</td>
+	<td>//ul[@id='side-nav']/li[4]/a/span</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>link=KRA Attributes</td>
+	<td>link=Add New User</td>
 	<td></td>
 </tr>
 <tr>
+	<td>select</td>
+	<td>id=user_role</td>
+	<td>appraisee</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=user_email</td>
+	<td>nagasundram@gamil.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=user_first_name</td>
+	<td>Naga</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=user_last_name</td>
+	<td>sundaram</td>
+</tr>
+<tr>
 	<td>click</td>
-	<td>link=New KRA Attribute</td>
+	<td>xpath=(//button[@type='button'])[2]</td>
 	<td></td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=kra_attr_name</td>
-	<td>Test</td>
+	<td>id=user_phone_no</td>
+	<td>+919952265789</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=role_id_id</td>
+	<td>label=Developer</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=aprsl_cycl_id_id</td>
+	<td>label=2012-01-04</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>id=dept_id_id</td>
+	<td>label=BU2</td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=range_bar</td>
-	<td>21</td>
+	<td>id=start_date</td>
+	<td>2013-10-24</td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=kra_attr_desc</td>
-	<td>test</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=kra_attr_measures</td>
-	<td>test</td>
-</tr>
-<tr>
-	<td>click</td>
+	<td>clickAndWait</td>
 	<td>name=commit</td>
 	<td></td>
 </tr>
-<tr>
-	<td>click</td>
-	<td>//div[@id='body-content']/div/div[4]/div/section/table/tbody/tr[5]/td[4]/a</td>
-	<td></td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=range_bar</td>
-	<td>34</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=kra_attr_name</td>
-	<td> test Test</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>name=commit</td>
-	<td></td>
-</tr>
+
 </tbody></table>
 </body>
 </html>

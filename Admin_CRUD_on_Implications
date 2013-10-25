@@ -4,12 +4,12 @@
 <head profile="http://selenium-ide.openqa.org/profiles/test-case">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <link rel="selenium.base" href="http://localhost:3000/" />
-<title>Admin_CRUD_KRA_Attr</title>
+<title>Admin_CRUD_on_Implications</title>
 </head>
 <body>
 <table cellpadding="1" cellspacing="1" border="1">
 <thead>
-<tr><td rowspan="1" colspan="3">Admin_CRUD_KRA_Attr</td></tr>
+<tr><td rowspan="1" colspan="3">Admin_CRUD_on_Implications</td></tr>
 </thead><tbody>
 <tr>
 	<td>open</td>
@@ -18,38 +18,33 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//ul[@id='side-nav']/li[6]/a/span</td>
+	<td>link=Implications</td>
 	<td></td>
 </tr>
 <tr>
 	<td>click</td>
-	<td>link=KRA Attributes</td>
-	<td></td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>link=New KRA Attribute</td>
+	<td>link=New Implication</td>
 	<td></td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=kra_attr_name</td>
+	<td>id=implication</td>
 	<td>Test</td>
 </tr>
 <tr>
-	<td>type</td>
-	<td>id=range_bar</td>
-	<td>21</td>
+	<td>click</td>
+	<td>name=commit</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='body-content']/div/section/div/div[4]/div/strong/section/table/tbody/tr[23]/td[2]/a</td>
+	<td></td>
 </tr>
 <tr>
 	<td>type</td>
-	<td>id=kra_attr_desc</td>
-	<td>test</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=kra_attr_measures</td>
-	<td>test</td>
+	<td>id=implication</td>
+	<td>re Test</td>
 </tr>
 <tr>
 	<td>click</td>
@@ -58,24 +53,10 @@
 </tr>
 <tr>
 	<td>click</td>
-	<td>//div[@id='body-content']/div/div[4]/div/section/table/tbody/tr[5]/td[4]/a</td>
+	<td>//div[@id='body-content']/div/section/div/div[4]/div/strong/section/table/tbody/tr[23]/td[3]/a</td>
 	<td></td>
 </tr>
-<tr>
-	<td>type</td>
-	<td>id=range_bar</td>
-	<td>34</td>
-</tr>
-<tr>
-	<td>type</td>
-	<td>id=kra_attr_name</td>
-	<td> test Test</td>
-</tr>
-<tr>
-	<td>click</td>
-	<td>name=commit</td>
-	<td></td>
-</tr>
+
 </tbody></table>
 </body>
 </html>
